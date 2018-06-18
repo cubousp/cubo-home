@@ -1,0 +1,49 @@
+.activities {
+    min-height: 100vh;
+    display: flex;
+}
+
+.activities__section {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.activities__section.palestras {
+    background: url('./palestra.jpg') center right no-repeat;
+    background-size: cover;
+}
+
+.activities__section.workshops {
+    background: url('./workshop.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.activities__section.hands-on {
+    background: url('./hands-on.jpg') center center no-repeat;
+    background-size: cover;
+
+}
+
+.activities__section.cirurgias {
+    background: url('./cirurgia.jpg') center center no-repeat;
+    background-size: cover;
+
+}
+
+.activities__section.stands {
+    background: url('./stand.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.activities__section__title {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+
+.activities__section__title h1 {
+    font-weight: 600;
+}

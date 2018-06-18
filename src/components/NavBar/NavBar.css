@@ -1,14 +1,24 @@
 .navbar {
+    z-index: 9999;
     position: fixed;
     width: 100%;
     padding: 40px 0;
     height: 56px;
-    background: transparent;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #16557E;
     font-weight: 500;
+    background: rgba(22, 85, 126, 0.75);
+    color: #fff;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.navbar.transparent {
+    background: transparent;
+    color: #16557E;
 }
 
 .navbar__logo {
@@ -38,7 +48,6 @@
 .hover-underline-animation {
     display: inline-block;
     position: relative;
-    color: #0087ca;
 }
 .hover-underline-animation::after {
     content: '';
