@@ -1,0 +1,76 @@
+.banner {
+    min-height: 100vh;
+    background: url('banner-image.jpg') center center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__content {
+    margin-top: 64px;
+    text-align: left;
+    padding: 96px 164px;
+}
+
+.banner__content__event-edition h1 {
+    font-size: 100px;
+    font-weight: 100;
+    margin: 0;
+    color: #3687BC;
+}
+
+.banner__content__event-name {
+    margin-left: 64px;
+    text-transform: uppercase;
+    color: #16557E;
+}
+
+.banner__content__event-name h1 {
+    font-size: 60px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.banner__content__event-slogan h2 {
+    margin-top: 16px;
+    margin-left: 64px;
+    color: #16557E;
+    font-size: 24px;
+}
+
+.banner__social-media {
+    position: absolute;
+    right: 64px;
+    top: 128px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.banner__social-media img {
+    height: 48px;
+}
+
+.banner__social-media a:not(:first-child) {
+    margin-top: 16px;
+}
+
+.banner__content__event-detail {
+    margin-left: 64px;
+    margin-top: 64px;
+    font-size: 16px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+}
+
+.banner__content__event-detail__date h2 {
+    color: #16557E;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.banner__content__event-detail__subscribe {
+    margin-left: 96px;
+}

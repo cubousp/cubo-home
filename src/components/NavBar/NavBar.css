@@ -1,0 +1,36 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 40px 0;
+    height: 56px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #16557E;
+    font-weight: 500;
+}
+
+.navbar__logo {
+    margin-left: 64px;
+}
+
+.navbar__logo img {
+    height: 28px;
+}
+
+
+.navbar__content {
+    margin-right: 64px;
+}
+
+.navbar__content a {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.navbar__content a:not(:first-child) {
+    margin-left: 64px;
+}

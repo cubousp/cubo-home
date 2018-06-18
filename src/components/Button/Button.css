@@ -1,0 +1,16 @@
+.button {
+    text-transform: uppercase;
+    padding: 20px 36px;
+    font-size: 18px;
+    background: #E26233;
+    border-color: #E26233;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    border-radius: 0.4rem;
+}
+
+.button:hover, .button:focus, .button:active, .button:visited {
+    background: #d4592c !important;
+    border-color: #d4592c !important;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26) !important;
+    border-radius: 0.4rem !important;
+}

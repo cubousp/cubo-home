@@ -1,4 +1,10 @@
+@font-face {
+  font-family: 'DinMittel';
+  src: local('DinMittel'), url(./DinMittel.ttf) format('ttf');
+}
+
 .App {
+  font-family: 'Roboto', sans-serif;
   text-align: center;
 }
 
@@ -21,6 +27,7 @@
 .App-intro {
   font-size: large;
 }
+
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
