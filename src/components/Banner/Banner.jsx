@@ -40,7 +40,7 @@ const Banner = () => (
                 target="_blank"
             >
                 <img className="grow" src={facebookLogo} alt="facebook" />
-            </a>'
+            </a>
             <a
                 href="https://www.facebook.com/CUBO.USP/"
                 rel="noopener noreferrer"
