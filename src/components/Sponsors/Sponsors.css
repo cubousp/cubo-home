@@ -1,0 +1,23 @@
+.sponsors {
+    margin-top: 96px;
+}
+
+.sponsors__header {
+    text-transform: uppercase;
+    color: #16557E;
+}
+
+.sponsors__header h1 {
+    font-weight: 600;
+}
+
+.sponsors__grid {
+    display: grid;
+    margin-top: 96px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 200px);
+}
+
+.sponsors__grid__card img {
+    height: 80px;
+}
