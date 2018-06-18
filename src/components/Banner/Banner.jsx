@@ -39,14 +39,14 @@ const Banner = () => (
                 rel="noopener noreferrer"
                 target="_blank"
             >
-                <img src={facebookLogo} alt="facebook" />
+                <img className="grow" src={facebookLogo} alt="facebook" />
             </a>
             <a
                 href="https://www.facebook.com/CUBO.USP/"
                 rel="noopener noreferrer"
                 target="_blank"
             >
-                <img src={instagramLogo} alt="instagram" />
+                <img className="grow" src={instagramLogo} alt="instagram" />
             </a>
         </div>
     </div>

@@ -7,12 +7,12 @@ const NavBar = () => (
             <img src={logo} alt='cubo-deitado' />
         </div>
         <div className="navbar__content">
-            <a>Programação</a>
-            <a>Painéis Científicos</a>
-            <a>Sobre o CUBO</a>
-            <a>Como Chegar?</a>
-            <a>Fale Conosco</a>
-            <a>Meu Cubo</a>
+            <a className="hover-underline-animation">Programação</a>
+            <a className="hover-underline-animation">Painéis Científicos</a>
+            <a className="hover-underline-animation">Sobre o CUBO</a>
+            <a className="hover-underline-animation">Como Chegar?</a>
+            <a className="hover-underline-animation">Fale Conosco</a>
+            <a className="hover-underline-animation">Meu Cubo</a>
         </div>
     </div>
 )
