@@ -6,6 +6,7 @@ import Sponsors from './components/Sponsors/Sponsors'
 import Expo from './components/Expo/Expo'
 import CuboAccess from './components/CuboAccess/CuboAccess'
 import About from './components/About/About'
+import Footer from './components/Footer/Footer'
 import './App.css';
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
                 <CuboAccess/>
                 <Sponsors/>
                 <About/>
+                <Footer/>
             </div>
     );
   }

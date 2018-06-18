@@ -3,7 +3,7 @@ import './Expo.css'
 
 const Expo = () => (
     <div>
-        Expo
+        {/*Expo*/}
     </div>
 )
 

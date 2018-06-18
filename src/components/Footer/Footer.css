@@ -1,0 +1,12 @@
+.footer {
+    color: #fff;
+    background: #093655;
+    padding: 16px;
+    margin-top: 64px;
+}
+
+.footer h4 {
+    margin: 0;
+    font-weight: 100;
+    font-size: 20px;
+}
