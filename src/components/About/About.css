@@ -1,0 +1,46 @@
+.about {
+    display: flex;
+    margin-top: 64px;
+}
+
+.about.col {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.about__photo {
+    width: 50%;
+}
+
+.about__photo img {
+    width: 100%;
+}
+
+.about__header {
+    text-transform: uppercase;
+    color: #16557E;
+}
+
+.about__header h1 {
+    font-weight: 600;
+}
+
+.about__content {
+    padding: 48px;
+}
+
+.about__content h6 {
+    font-style: italic;
+    font-size: 24px;
+    color: #16557E;
+}
+
+.about__content p {
+    margin-top: 32px;
+    font-size: 24px;
+    color: #16557E;
+    text-align: start;
+}
