@@ -36,17 +36,17 @@ const CuboAccess = () => (
             <div className="cubo-access__content-prices">
                 <ul>
                     <li>
-                        <h4>Aluno FOUSP Graduação</h4>
+                        <h4>Aluno FOUSP - Graduação</h4>
                         <span>Gratuito</span>
                     </li>
                     <li>
-                        <h4>Aluno FOUSP Pós-Graduação</h4>
-                        <span>Dia avulso: R$ 20,00</span>
+                        <h4>Aluno FOUSP - Pós-Graduação</h4>
+                        <span>Dia avulso: R$ 20,00</span><br/>
                         <span>Todos os dias: R$ 50,00</span>
                     </li>
                     <li>
                         <h4>Participantes externos</h4>
-                        <span>Dia avulso: R$ 30,00</span>
+                        <span>Dia avulso: R$ 30,00</span><br/>
                         <span>Todos os dias: R$ 60,00</span>
                     </li>
                 </ul>

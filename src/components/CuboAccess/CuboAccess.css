@@ -1,12 +1,75 @@
 .cubo-access {
-
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 64px;
 }
 
 .cubo-access__header {
     text-transform: uppercase;
     color: #16557E;
+    text-align: start;
 }
 
 .cubo-access__header h1 {
     font-weight: 600;
 }
+
+.cubo-access__content {
+    display: flex;
+    margin-top: 64px;
+    flex-direction: row;
+}
+
+.cubo-access__content-benefits {
+    width: 45%;
+    margin-left: 64px;
+}
+
+.cubo-access__content-benefits ul {
+    color: #16557E;
+    list-style-type: none;
+    font-size: 20px;
+    text-align: start;
+    margin-left: 8px;
+}
+
+.cubo-access__content-benefits li {
+    text-align: start;
+    font-style: italic;
+    font-size: 22px;
+    margin-top: 32px;
+    list-style-type: none;
+}
+
+.cubo-access__content-prices {
+    width: 45%;
+}
+
+.cubo-access__content-prices ul {
+    list-style-type: none;
+    margin-left: 64px;
+}
+
+.cubo-access__content-prices li {
+    color: #16557E;
+    text-align: start;
+    margin-top: 32px;
+}
+
+.cubo-access__content-prices h4 {
+    font-weight: 600;
+    font-style: italic;
+}
+
+.cubo-access__content-prices span {
+    font-size: 22px;
+}
+
+.cubo-access__content-button {
+    width: 10%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
