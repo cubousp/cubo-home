@@ -1,0 +1,9 @@
+.contact {
+    margin-top: 160px;
+}
+
+.contact__header {
+    text-transform: uppercase;
+    color: #16557E;
+    text-align: center;
+}
