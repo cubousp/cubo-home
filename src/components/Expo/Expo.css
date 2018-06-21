@@ -1,0 +1,101 @@
+.expo {
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 64px;
+}
+
+.expo__header {
+    text-align: start;
+    color: #16557E;
+}
+
+.expo__header h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.expo__content {
+    display: flex;
+    flex-direction: row;
+}
+
+.expo__content-judging {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.expo__content-judging span {
+    text-align: start;
+    color: #16557E;
+    font-size: 20px;
+}
+
+.expo__content-judging ul {
+    color: #16557E;
+    text-align: center;
+    list-style-type: none;
+    font-size: 20px;
+    margin-top: 64px;
+}
+
+.expo__content-judging li {
+    text-align: center;
+    color: #16557E;
+    margin-top: 32px;
+    list-style-type: none;
+}
+
+.expo__content-judging h4 {
+    font-weight: 600;
+    font-style: italic;
+}
+
+.expo__content-prizes {
+    width: 45%;
+}
+
+.expo__content-prizes ul {
+    list-style-type: none;
+    margin-left: 64px;
+    text-align: start;
+    margin-bottom: 0px;
+}
+
+.expo__content-prizes ul span {
+    color: #16557E;
+    font-size: 20px;
+}
+
+.expo__content-prizes li {
+    color: #16557E;
+    text-align: start;
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.expo__content-prizes h4 {
+    font-weight: 600;
+    font-style: italic;
+}
+
+.expo__content-prizes span {
+    font-size: 22px;
+}
+
+.expo__content-prizes img {
+    font-size: 22px;
+    width: 160px;
+    margin-left: 64px;
+}
+
+.expo__content-button {
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+

@@ -1,6 +1,7 @@
 .button {
     text-transform: uppercase;
-    padding: 20px 36px;
+    padding: 0px 36px;
+    height: 70px;
     font-size: 18px;
     background: #E26233;
     border-color: #E26233;

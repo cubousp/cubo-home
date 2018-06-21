@@ -1,12 +1,12 @@
 import React from 'react'
 import './Button.css'
 
-const Button = () => (
+const Button = ({ children }) => (
     <button
         type="button"
         className="button btn btn-primary"
     >
-        Inscreva-se
+        {children}
     </button>
 )
 
