@@ -1,0 +1,23 @@
+.form {
+    width: 100%;
+}
+
+.form-group label {
+    text-align: start;
+    width: 100%;
+}
+
+.form-group input {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+textarea {
+    resize: none;
+}
+
+.form-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 32px;
+}

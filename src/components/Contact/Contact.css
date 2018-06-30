@@ -1,9 +1,55 @@
 .contact {
     margin-top: 160px;
+    padding: 0 64px;
 }
 
 .contact__header {
     text-transform: uppercase;
     color: #16557E;
-    text-align: center;
+    text-align: start;
+}
+
+.contact__content {
+    display: flex;
+}
+
+.contact__row {
+    width: 50%;
+}
+
+.contact__content-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 96px;
+    color: #16557E;
+    text-align: start;
+    margin-left: 64px;
+    grid-row-gap: 64px;
+}
+
+.contact__content-grid h6 {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.contact__content-grid p {
+    margin-top: 16px;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.contact__content-grid span {
+    font-size: 16px;
+}
+
+.contact__content-label {
+    text-align: start;
+    color: #16557E;
+    font-size: 18px;
+}
+
+.contact__content-form {
+    max-width: 480px;
+    flex-grow: 1;
 }
