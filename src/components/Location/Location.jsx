@@ -2,16 +2,7 @@ import React from 'react'
 import moovit from './moovit.png'
 import cabify from './cabify.png'
 import './Location.css'
-import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-maps"
-
-const MyMapComponent = withScriptjs(withGoogleMap((props) =>
-        <GoogleMap
-            defaultZoom={8}
-            defaultCenter={{ lat: -34.397, lng: 150.644 }}
-        >
-            {props.isMarkerShown && <Marker position={{ lat: -34.397, lng: 150.644 }} />}
-        </GoogleMap>
-))
+import Map from './Map'
 
 const Location = () => (
     <div className="location">
@@ -36,7 +27,15 @@ const Location = () => (
                     <div className="location__content-info-moovit">
                         <div>
                             <h4>Vai vir de transporte público?</h4>
-                            <span>Clique para receber as direções no Moovit!</span>
+                            <div>
+                                <a
+                                    href={'https://moovit.com/?to=Avenida%20Professor%20Lineu%20Prestes%202227&tll=-23.566951_-46.738353&metroId=242&lang=en'}
+                                    target={'_blank'}
+                                >
+                                    Clique
+                                </a>
+                                <span> para receber as direções no Moovit!</span>
+                            </div>
                         </div>
                         <div>
                             <img alt="Moovit" src={moovit}/>
@@ -55,9 +54,9 @@ const Location = () => (
                 </div>
             </div>
             <div className="location__content-maps">
-                <MyMapComponent
+                <Map
                     isMarkerShown
-                    googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
+                    googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyBteStZaf37nN-bstBYU3gU2StOau48mz8&v=3.exp&libraries=geometry,drawing,places"
                     loadingElement={<div style={{ height: '100%' }} />}
                     containerElement={<div style={{ height: '100%', width: '100%' }} />}
                     mapElement={<div style={{ height: '100%' }} />}

@@ -38,6 +38,15 @@
     text-align: start;
 }
 
+.location__content-info a {
+    color: #16557E !important;
+    text-decoration: underline !important;
+    cursor: pointer !important;
+    font-size: 20px;
+    font-style: italic;
+    text-align: start;
+}
+
 
 .location__content-info-moovit {
     margin-top: 64px;
