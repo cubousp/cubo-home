@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ffb4945-7d24-4985-9376-5fcd2d7f766d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/Sponsors/Sponsors.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sponsors/Sponsors.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sponsors/Sponsors.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sponsors/Sponsors.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="5ffb4945-7d24-4985-9376-5fcd2d7f766d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -37,8 +34,8 @@
           <file leaf-file-name="NavBar.jsx" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/NavBar/NavBar.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="247">
-                  <caret line="47" column="39" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="47" selection-end-column="39" />
+                <state relative-caret-position="252">
+                  <caret line="101" column="37" lean-forward="true" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="37" />
                   <folding>
                     <element signature="e#0#40#0" expanded="true" />
                   </folding>
@@ -49,8 +46,8 @@
           <file leaf-file-name="Sponsors.jsx" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/Sponsors/Sponsors.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="380">
-                  <caret line="53" column="34" lean-forward="true" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+                <state relative-caret-position="399">
+                  <caret line="54" column="34" lean-forward="true" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
                   <folding>
                     <element signature="e#0#25#0" expanded="true" />
                     <element signature="e#184#271#0" />
@@ -99,6 +96,7 @@
       <find>CLIQUE</find>
       <find>info-moovit</find>
       <find>painei</find>
+      <find>conta</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -246,12 +244,12 @@
       <workItem from="1529274138230" duration="14063000" />
       <workItem from="1529296529526" duration="10692000" />
       <workItem from="1529424027594" duration="1535000" />
-      <workItem from="1530366395226" duration="12722000" />
+      <workItem from="1530366395226" duration="12970000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52808000" />
+    <option name="totallyTimeSpent" value="53056000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -647,8 +645,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/NavBar/NavBar.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="47" column="39" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="47" selection-end-column="39" />
+        <state relative-caret-position="252">
+          <caret line="101" column="37" lean-forward="true" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="37" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
@@ -657,8 +655,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Sponsors/Sponsors.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="53" column="34" lean-forward="true" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+        <state relative-caret-position="399">
+          <caret line="54" column="34" lean-forward="true" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
             <element signature="e#184#271#0" />

@@ -42,7 +42,7 @@ const Banner = () => (
                 <img className="grow" src={facebookLogo} alt="facebook" />
             </a>
             <a
-                href="https://www.facebook.com/CUBO.USP/"
+                href="https://www.instagram.com/cubousp/"
                 rel="noopener noreferrer"
                 target="_blank"
             >
