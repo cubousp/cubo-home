@@ -1,5 +1,6 @@
 .sponsors {
     margin-top: 160px;
+    padding: 0 64px;
 }
 
 .sponsors__header {
@@ -20,4 +21,21 @@
 
 .sponsors__grid__card img {
     height: 80px;
+}
+
+.sponsors__contact {
+    margin-top: 80px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sponsors__contact p {
+    text-align: center;
+    color: #16557E;
+    font-size: 14px;
+}
+
+.sponsors__contact a {
+    text-decoration: underline !important;
+    cursor: pointer;
 }

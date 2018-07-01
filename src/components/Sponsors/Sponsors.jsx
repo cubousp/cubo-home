@@ -2,6 +2,7 @@ import React from 'react'
 import './Sponsors.css'
 import colgate from './colgate.png'
 import oralB from './oral-b.png'
+import { Link } from 'react-scroll'
 
 const Sponsors = () => (
     <div className="sponsors">
@@ -39,6 +40,20 @@ const Sponsors = () => (
                     <img alt="sponsor" src={oralB} className="grow"/>
                 </a>
             </div>
+        </div>
+        <div className={"sponsors__contact"}>
+            <p>
+                Quer ser um parceiro do CUBO? <br/>
+                Mande uma <Link
+                    activeClass="active"
+                    to="contact"
+                    offset={-120}
+                    spy={true}
+                    smooth={true}
+                    duration={500}>
+                    mensagem
+                </Link> pra gente!
+            </p>
         </div>
     </div>
 )

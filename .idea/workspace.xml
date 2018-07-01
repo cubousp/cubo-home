@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ffb4945-7d24-4985-9376-5fcd2d7f766d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sponsors/Sponsors.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sponsors/Sponsors.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sponsors/Sponsors.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sponsors/Sponsors.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,13 +34,27 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="NavBar.jsx" pinned="false" current-in-tab="true">
+          <file leaf-file-name="NavBar.jsx" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/NavBar/NavBar.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="437">
-                  <caret line="57" selection-start-line="57" selection-end-line="57" />
+                <state relative-caret-position="247">
+                  <caret line="47" column="39" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="47" selection-end-column="39" />
                   <folding>
                     <element signature="e#0#40#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Sponsors.jsx" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/components/Sponsors/Sponsors.jsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="380">
+                  <caret line="53" column="34" lean-forward="true" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+                  <folding>
+                    <element signature="e#0#25#0" expanded="true" />
+                    <element signature="e#184#271#0" />
+                    <element signature="e#280#1878#0" />
                   </folding>
                 </state>
               </provider>
@@ -49,11 +64,23 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="NavBar.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/components/NavBar/NavBar.css">
+          <file leaf-file-name="Sponsors.jsx" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/Sponsors/Sponsors.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret lean-forward="true" />
+                <state relative-caret-position="163">
+                  <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+                  <folding>
+                    <element signature="e#0#25#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Sponsors.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/components/Sponsors/Sponsors.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="541">
+                  <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
                 </state>
               </provider>
             </entry>
@@ -90,18 +117,15 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/Activities/Activities.css" />
         <option value="$PROJECT_DIR$/src/App.css" />
-        <option value="$PROJECT_DIR$/src/components/Sponsors/Sponsors.jsx" />
         <option value="$PROJECT_DIR$/src/components/Banner/Banner.jsx" />
         <option value="$PROJECT_DIR$/src/components/About/About.jsx" />
         <option value="$PROJECT_DIR$/src/components/Footer/Footer.jsx" />
         <option value="$PROJECT_DIR$/src/components/CuboAccess/CuboAccess.css" />
-        <option value="$PROJECT_DIR$/src/components/Sponsors/Sponsors.css" />
         <option value="$PROJECT_DIR$/src/components/Button/Button.jsx" />
         <option value="$PROJECT_DIR$/src/components/Footer/Footer.css" />
         <option value="$PROJECT_DIR$/src/components/About/About.css" />
         <option value="$PROJECT_DIR$/src/components/CuboAccess/CuboAccess.jsx" />
         <option value="$PROJECT_DIR$/src/components/Expo/Expo.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Expo/Expo.css" />
         <option value="$PROJECT_DIR$/src/components/Location/Map.jsx" />
         <option value="$PROJECT_DIR$/src/components/Location/Location.css" />
         <option value="$PROJECT_DIR$/src/components/Location/Location.jsx" />
@@ -114,6 +138,9 @@
         <option value="$PROJECT_DIR$/src/components/NavBar/NavBar.css" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/NavBar/NavBar.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Expo/Expo.css" />
+        <option value="$PROJECT_DIR$/src/components/Sponsors/Sponsors.css" />
+        <option value="$PROJECT_DIR$/src/components/Sponsors/Sponsors.jsx" />
       </list>
     </option>
   </component>
@@ -219,12 +246,12 @@
       <workItem from="1529274138230" duration="14063000" />
       <workItem from="1529296529526" duration="10692000" />
       <workItem from="1529424027594" duration="1535000" />
-      <workItem from="1530366395226" duration="12199000" />
+      <workItem from="1530366395226" duration="12722000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52285000" />
+    <option name="totallyTimeSpent" value="52808000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -423,16 +450,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Sponsors/Sponsors.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Banner/Banner.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -468,13 +485,6 @@
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Sponsors/Sponsors.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -584,13 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Expo/Expo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="32" column="20" selection-start-line="30" selection-start-column="4" selection-end-line="32" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Contact/Form.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -611,13 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/NavBar/NavBar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
@@ -628,12 +624,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NavBar/NavBar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Expo/Expo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Sponsors/Sponsors.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/NavBar/NavBar.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="247">
+          <caret line="47" column="39" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="47" selection-end-column="39" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Sponsors/Sponsors.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="53" column="34" lean-forward="true" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#184#271#0" />
+            <element signature="e#280#1878#0" />
           </folding>
         </state>
       </provider>
