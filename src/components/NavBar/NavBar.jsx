@@ -45,7 +45,6 @@ class NavBar extends Component {
                         to="banner"
                         spy={true}
                         smooth={true}
-                        offset={-80}
                         duration={500}>
                         <img src={logo} alt='cubo-deitado' />
                     </Link>
@@ -67,7 +66,7 @@ class NavBar extends Component {
                         to="expo"
                         spy={true}
                         smooth={true}
-                        offset={-160}
+                        offset={-120}
                         duration={500}
                         className="hover-underline-animation"
                     >
@@ -89,7 +88,7 @@ class NavBar extends Component {
                         to="location"
                         spy={true}
                         smooth={true}
-                        offset={-160}
+                        offset={-120}
                         duration={500}
                         className="hover-underline-animation"
                     >
@@ -100,7 +99,7 @@ class NavBar extends Component {
                         to="contact"
                         spy={true}
                         smooth={true}
-                        offset={-80}
+                        offset={-120}
                         duration={500}
                         className="hover-underline-animation"
                     >
