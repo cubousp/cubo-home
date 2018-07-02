@@ -11,6 +11,8 @@ import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import './App.css'
 import { Element , scrollSpy } from 'react-scroll'
+import { ApolloProvider } from "react-apollo";
+import { client } from "./repository/client";
 
 class App extends Component {
     componentDidMount() {
@@ -20,16 +22,18 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <NavBar/>
-                <Element name={"banner"}><Banner/></Element>
-                <Element name={"activities"}><Activities/></Element>
-                <Element name={"expo"}><Expo/></Element>
-                <Element name={"cubo-access"}><CuboAccess/></Element>
-                <Element name={"sponsors"}><Sponsors/></Element>
-                <Element name={"about"}><About/></Element>
-                <Element name={"location"}><Location/></Element>
-                <Element name={"contact"}><Contact/></Element>
-                <Element name={"footer"}><Footer/></Element>
+                <ApolloProvider client={client}>
+                    <NavBar/>
+                    <Element name={"banner"}><Banner/></Element>
+                    <Element name={"activities"}><Activities/></Element>
+                    <Element name={"expo"}><Expo/></Element>
+                    <Element name={"cubo-access"}><CuboAccess/></Element>
+                    <Element name={"sponsors"}><Sponsors/></Element>
+                    <Element name={"about"}><About/></Element>
+                    <Element name={"location"}><Location/></Element>
+                    <Element name={"contact"}><Contact/></Element>
+                    <Element name={"footer"}><Footer/></Element>
+                </ApolloProvider>
             </div>
     );
   }

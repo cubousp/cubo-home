@@ -2,6 +2,8 @@ import React from 'react'
 import './Form.css'
 import Button from '../Button/Button'
 import Snackbar from '../Snackbar/Snackbar'
+import { Mutation } from "react-apollo";
+import {SEND_EMAIL} from "../../repository/mail";
 
 class Form extends React.Component {
     state = {
@@ -22,10 +24,11 @@ class Form extends React.Component {
         throw new Error('validation')
     }
 
-    handleSubmit = () => {
+    handleSubmit = async(mutation) => {
         try {
             this.validateInput()
-            console.log(this.state)
+            const { name, email, phone, message } = this.state
+            await mutation({ variables: { input: { name, email, phone, message }} });
             this.setState({
                 snackbarOpen: true,
                 snackbarVariant: 'success',
@@ -66,35 +69,41 @@ class Form extends React.Component {
 
     render() {
         return (
-            <form className="form">
-                <div className="form-group">
-                    <label>Nome</label>
-                    <input className="form-control" value={this.state.name} onChange={(event) => this.onChangeInput('name', event.target.value)}/>
-                </div>
-                <div className="form-group">
-                    <label>Email</label>
-                    <input type="email" className="form-control" value={this.state.email} onChange={(event) => this.onChangeInput('email', event.target.value)}/>
-                </div>
-                <div className="form-group">
-                    <label>Telefone</label>
-                    <input className="form-control" value={this.state.phone} onChange={(event) => this.onChangeInput('phone', event.target.value)}/>
-                </div>
-                <div className="form-group">
-                    <label>Mensagem</label>
-                    <textarea rows="6" className="form-control" value={this.state.message} onChange={(event) => this.onChangeInput('message', event.target.value)}/>
-                </div>
-                <div className="form-button">
-                    <Button onClick={this.handleSubmit}>Enviar</Button>
-                </div>
-                <Snackbar
-                    vertical={"bottom"}
-                    horizontal={"right"}
-                    variant={this.state.snackbarVariant}
-                    message={this.state.snackbarMessage}
-                    open={this.state.snackbarOpen}
-                    handleClose={this.handleSnackbarClose}
-                />
-            </form>
+            <Mutation mutation={SEND_EMAIL}>
+                {
+                    (sendEmail) => (
+                        <form className="form">
+                            <div className="form-group">
+                                <label>Nome</label>
+                                <input className="form-control" value={this.state.name} onChange={(event) => this.onChangeInput('name', event.target.value)}/>
+                            </div>
+                            <div className="form-group">
+                                <label>Email</label>
+                                <input type="email" className="form-control" value={this.state.email} onChange={(event) => this.onChangeInput('email', event.target.value)}/>
+                            </div>
+                            <div className="form-group">
+                                <label>Telefone</label>
+                                <input className="form-control" value={this.state.phone} onChange={(event) => this.onChangeInput('phone', event.target.value)}/>
+                            </div>
+                            <div className="form-group">
+                                <label>Mensagem</label>
+                                <textarea rows="6" className="form-control" value={this.state.message} onChange={(event) => this.onChangeInput('message', event.target.value)}/>
+                            </div>
+                            <div className="form-button">
+                                <Button onClick={() => this.handleSubmit(sendEmail)}>Enviar</Button>
+                            </div>
+                            <Snackbar
+                                vertical={"bottom"}
+                                horizontal={"right"}
+                                variant={this.state.snackbarVariant}
+                                message={this.state.snackbarMessage}
+                                open={this.state.snackbarOpen}
+                                handleClose={this.handleSnackbarClose}
+                            />
+                        </form>
+                    )
+                }
+            </Mutation>
         )
     }
 }
