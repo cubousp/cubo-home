@@ -105,9 +105,11 @@ class NavBar extends Component {
                     >
                         Fale Conosco
                     </Link>
-                    <a className="hover-underline-animation">
-                        Meu Cubo
-                    </a>
+                    { process.env.REACT_APP_INSCRIPTION_OPEN === 'true' &&
+                        <a className="hover-underline-animation">
+                            Meu Cubo
+                        </a>
+                    }
                 </div>
             </div>
         )

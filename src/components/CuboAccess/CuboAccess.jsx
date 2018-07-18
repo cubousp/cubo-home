@@ -51,9 +51,11 @@ const CuboAccess = () => (
                     </li>
                 </ul>
             </div>
-            <div className="cubo-access__content-button">
-                <Button>Inscreva-se</Button>
-            </div>
+            { process.env.REACT_APP_INSCRIPTION_OPEN === 'true' &&
+                <div className="cubo-access__content-button">
+                    <Button>Inscreva-se</Button>
+                </div>
+            }
         </div>
     </div>
 )

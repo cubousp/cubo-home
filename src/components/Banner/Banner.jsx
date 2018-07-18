@@ -28,9 +28,11 @@ const Banner = () => (
                         Faculdade de Odontologia da USP
                     </h2>
                 </div>
-                <div className="banner__content__event-detail__subscribe">
-                    <Button>Inscreva-se</Button>
-                </div>
+                { process.env.REACT_APP_INSCRIPTION_OPEN === 'true' &&
+                    <div className="banner__content__event-detail__subscribe">
+                         <Button>Inscreva-se</Button>
+                    </div>
+                }
             </div>
         </div>
         <div className="banner__social-media">
