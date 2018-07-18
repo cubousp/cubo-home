@@ -41,16 +41,20 @@ const Location = () => (
                             <img alt="Moovit" src={moovit}/>
                         </div>
                     </div>
-                    <h6 style={{ marginLeft: -64 }}>ou</h6>
-                    <div className="location__content-info-cabify">
+                    { process.env.REACT_APP_INSCRIPTION_OPEN === 'true' &&
                         <div>
-                            <h4>Use o cupom CUBOUSP</h4>
-                            <span>e receba R$ XX,00 de desconto no Cabify!</span>
+                            <h6 style={{ marginLeft: -64 }}>ou</h6>
+                            <div className="location__content-info-cabify">
+                                <div>
+                                    <h4>Use o cupom CUBOUSP</h4>
+                                    <span>e receba R$ XX,00 de desconto no Cabify!</span>
+                                </div>
+                                <div>
+                                    <img alt="Cabify" src={cabify}/>
+                                </div>
+                            </div>
                         </div>
-                        <div>
-                            <img alt="Cabify" src={cabify}/>
-                        </div>
-                    </div>
+                    }
                 </div>
             </div>
             <div className="location__content-maps">
