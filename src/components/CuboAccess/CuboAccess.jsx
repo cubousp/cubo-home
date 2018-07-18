@@ -41,13 +41,13 @@ const CuboAccess = () => (
                     </li>
                     <li>
                         <h4>Aluno FOUSP - Pós-Graduação</h4>
-                        <span>Dia avulso: R$ 20,00</span><br/>
-                        <span>Todos os dias: R$ 50,00</span>
+                        <span>Dia avulso: R$ 25,00</span><br/>
+                        <span>Todos os dias: R$ 55,00</span>
                     </li>
                     <li>
                         <h4>Participantes externos</h4>
-                        <span>Dia avulso: R$ 30,00</span><br/>
-                        <span>Todos os dias: R$ 60,00</span>
+                        <span>Dia avulso: R$ 35,00</span><br/>
+                        <span>Todos os dias: R$ 65,00</span>
                     </li>
                 </ul>
             </div>
