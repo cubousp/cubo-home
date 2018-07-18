@@ -1,7 +1,9 @@
 import React from 'react'
 import './Sponsors.css'
-import colgate from './colgate.png'
-import oralB from './oral-b.png'
+import septodont from './logo_septodont.png'
+import quinelato from './logo_quinelato.jpg'
+import sisconsultoria from './logo_sis_consultoria.png'
+import tdv from './logo_tdv.png'
 import { Link } from 'react-scroll'
 
 const Sponsors = () => (
@@ -11,33 +13,23 @@ const Sponsors = () => (
         </div>
         <div className="sponsors__grid">
             <div className="sponsors__grid__card">
-                <a href="https://www.colgate.com.br/" target="_blank" rel="noopener noreferrer">
-                    <img alt="sponsor" src={colgate} className="grow"/>
+                <a href="http://www.septodont.com.br/" target="_blank" rel="noopener noreferrer">
+                    <img alt="sponsor" src={septodont} className="grow"/>
                 </a>
             </div>
             <div className="sponsors__grid__card">
-                <a href="https://oralb.com.br/pt-br" target="_blank" rel="noopener noreferrer">
-                    <img alt="sponsor" src={oralB} className="grow"/>
+                <a href="https://www.quinelato.com.br/" target="_blank" rel="noopener noreferrer">
+                    <img alt="sponsor" src={quinelato} className="grow"/>
                 </a>
             </div>
             <div className="sponsors__grid__card">
-                <a href="https://www.colgate.com.br/" target="_blank" rel="noopener noreferrer">
-                    <img alt="sponsor" src={colgate} className="grow"/>
+                <a href="http://www.sisconsultoria.net/" target="_blank" rel="noopener noreferrer">
+                    <img alt="sponsor" src={sisconsultoria} className="grow"/>
                 </a>
             </div>
             <div className="sponsors__grid__card">
-                <a href="https://oralb.com.br/pt-br" target="_blank" rel="noopener noreferrer">
-                    <img alt="sponsor" src={oralB} className="grow"/>
-                </a>
-            </div>
-            <div className="sponsors__grid__card">
-                <a href="https://www.colgate.com.br/" target="_blank" rel="noopener noreferrer">
-                    <img alt="sponsor" src={colgate} className="grow"/>
-                </a>
-            </div>
-            <div className="sponsors__grid__card">
-                <a href="https://oralb.com.br/pt-br" target="_blank" rel="noopener noreferrer">
-                    <img alt="sponsor" src={oralB} className="grow"/>
+                <a href="http://www.tdv.com.br/" target="_blank" rel="noopener noreferrer">
+                    <img alt="sponsor" src={tdv} className="grow"/>
                 </a>
             </div>
         </div>
