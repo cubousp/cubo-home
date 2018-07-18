@@ -3,11 +3,6 @@ import './Expo.css'
 import Button from '../Button/Button'
 import cadeira from './cadeira.png'
 
-const expoInscriptionButtonClick = () => {
-    const url = 'https://goo.gl/forms/snfrbfQcTO3pGJOM2'
-    window.open(url, '_blank')
-}
-
 const Expo = () => (
     <div className="expo">
         <div className="expo__header">
@@ -76,12 +71,12 @@ const Expo = () => (
                     </li>
                 </ul>
             </div>
-            <div className="expo__content-button">
-                <Button onClick={expoInscriptionButtonClick}>
+            <a href="https://goo.gl/forms/snfrbfQcTO3pGJOM2" target="_blank" className="expo__content-button">
+                <Button>
                     Inscreva seu<br/>
                     trabalho
                 </Button>
-            </div>
+            </a>
         </div>
     </div>
 )
