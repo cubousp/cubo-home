@@ -71,12 +71,16 @@ const Expo = () => (
                     </li>
                 </ul>
             </div>
-            <div className="expo__content-button">
-                <Button>
-                    Inscreva seu<br/>
-                    trabalho
-                </Button>
-            </div>
+            <a 
+                href="https://goo.gl/forms/snfrbfQcTO3pGJOM2" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="expo__content-button">
+                    <Button>
+                        Inscreva seu<br/>
+                        trabalho
+                    </Button>
+            </a>
         </div>
     </div>
 )
