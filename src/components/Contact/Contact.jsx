@@ -18,23 +18,23 @@ const Contact = () => (
                 <div className="contact__content-grid">
                     <div className="contact__content-grid-item">
                         <h6>Patrocínio</h6>
-                        <p>Fulano de Ciclano</p>
-                        <span>patrocinio.cubousp@gmail.com</span>
+                        <p>Bárbara Aline Bernardino</p>
+                        <span>barbara.bernardino@usp.br</span>
                     </div>
                     <div className="contact__content-grid-item">
                         <h6>Recepção</h6>
-                        <p>Fulano de Ciclano</p>
-                        <span>cubousprecepcao@gmail.com</span>
+                        <p>Barbara Schneider Larios</p>
+                        <span>barbara.larios@usp.br</span>
                     </div>
                     <div className="contact__content-grid-item">
                         <h6>Painéis Científicos</h6>
-                        <p>Fulano de Ciclano</p>
-                        <span>paineiscubo@gmail.com</span>
+                        <p>Giovanna Carvalho</p>
+                        <span>giiovannalopes@hotmail.com</span>
                     </div>
                     <div className="contact__content-grid-item">
                         <h6>Informática</h6>
-                        <p>Fulano de Ciclano</p>
-                        <span>inf.cubo@gmail.com</span>
+                        <p>Isabella Souza Ferri</p>
+                        <span>bellaferri@usp.br</span>
                     </div>
                 </div>
             </div>
