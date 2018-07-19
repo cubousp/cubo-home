@@ -12,7 +12,26 @@
     cursor: pointer;
     background: #000;
     transition: width 3s;
+    height: 100vh;
 }
+
+.slides {
+    position: relative;
+}
+
+.slick-next {
+    position: absolute;
+    top: 50%;
+}
+
+.slick-prev {
+    left: 5%;
+}
+
+.slick-next {
+    right: 5%;
+}
+  
 
 .activities__section.selected {
 }
@@ -68,6 +87,8 @@
     color: #fff;
     display: flex;
     flex-grow: 1;
+    width: 300px;
+    height: 450px;
     justify-content: center;
     text-align: center;
 }
