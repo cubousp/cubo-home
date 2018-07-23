@@ -11,25 +11,25 @@ const CuboAccess = () => (
             <div className="cubo-access__content-benefits">
                 <ul>Com o CUBO Access, você tem acesso a:</ul>
                 <li>
-                    XX Palestras
+                    - Mais de 40 palestras com os melhores profissionais do mercado
                 </li>
                 <li>
-                    XX atividades práticas para alunos
+                    - Mais de 10 atividades práticas para alunos
                     do primeiro ao último ano
                 </li>
                 <li>
-                    XX stands de produtos com ofertas
+                    - Stands de produtos com ofertas
                     exclusivas
                 </li>
                 <li>
-                    Exposição de painéis científicos
+                    - Exposição de painéis científicos
                 </li>
                 <li>
-                    Material exclusivo com
+                    - Material exclusivo com
                     as publicações do evento
                 </li>
                 <li>
-                    Descontos em hospedagem e
+                    - Descontos em hospedagem e
                     alimentação com os nossos parceiros
                 </li>
             </div>
