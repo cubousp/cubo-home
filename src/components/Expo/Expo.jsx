@@ -2,6 +2,7 @@ import React from 'react'
 import './Expo.css'
 import Button from '../Button/Button'
 import cadeira from './cadeira.png'
+import fotopolimerizador from './fotopolimerizador.png'
 
 const Expo = () => (
     <div className="expo">
@@ -39,34 +40,30 @@ const Expo = () => (
             <div className="expo__content-prizes">
                 <ul>
                     <span>
-                        Com prêmios para os melhores colocados <br/>
-                        em cada categoria.
+                        Confira alguns dos prêmios para os melhores colocados!
                     </span>
                     <li>
                         <div>
-                            <h4>1º lugar</h4>
-                            <span>Cadeira XYZ com XPTO</span>
+                            <h4>LEC Fotopolimerizador</h4>
                         </div>
                         <div>
-                            <img alt="Prêmio 1º lugar" src={cadeira}/>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <h4>2º lugar</h4>
-                            <span>Cadeira XYZ com XPTO</span>
-                        </div>
-                        <div>
-                            <img alt="Prêmio 2º lugar" src={cadeira}/>
+                            <img alt="Fotopolimerizador" src={fotopolimerizador}/>
                         </div>
                     </li>
                     <li>
                         <div>
-                            <h4>3º lugar</h4>
-                            <span>Cadeira XYZ com XPTO</span>
+                            <h4>Kit Dentsply</h4>
                         </div>
                         <div>
-                            <img alt="Prêmio 3º lugar" src={cadeira}/>
+                            <img alt="" src={cadeira}/>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h4>Brindes Curaprox</h4>
+                        </div>
+                        <div>
+                            <img alt="" src={cadeira}/>
                         </div>
                     </li>
                 </ul>
@@ -74,7 +71,8 @@ const Expo = () => (
             <a 
                 href="https://goo.gl/forms/snfrbfQcTO3pGJOM2" 
                 target="_blank" 
-                rel="noopener noreferrer" 
+                rel="noopener noreferrer"
+                style={{ textDecoration: 'none' }}
                 className="expo__content-button">
                     <Button>
                         Inscreva seu<br/>
