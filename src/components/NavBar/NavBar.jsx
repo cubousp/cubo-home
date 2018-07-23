@@ -52,17 +52,6 @@ class NavBar extends Component {
                 <div className="navbar__content">
                     <Link
                         activeClass="active"
-                        to="activities"
-                        spy={true}
-                        smooth={true}
-                        offset={-80}
-                        duration={500}
-                        className="hover-underline-animation"
-                    >
-                        Programação
-                    </Link>
-                    <Link
-                        activeClass="active"
                         to="expo"
                         spy={true}
                         smooth={true}
@@ -71,6 +60,17 @@ class NavBar extends Component {
                         className="hover-underline-animation"
                     >
                         Painéis Científicos
+                    </Link>
+                    <Link
+                        activeClass="active"
+                        to="sponsors"
+                        spy={true}
+                        smooth={true}
+                        offset={-80}
+                        duration={500}
+                        className="hover-underline-animation"
+                    >
+                        Patrocínio
                     </Link>
                     <Link
                         activeClass="active"
