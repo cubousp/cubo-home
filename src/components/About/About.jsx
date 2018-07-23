@@ -15,13 +15,7 @@ const About = () => (
                     experiencias unicas que complementem sua formação. Organizado totalmente por alunos, o CUBO traz os
                     assuntos mais atuais e relevantes da odontologia moderna, apresentando uma grade de atividades
                     recheada de temas que possibilitam que os congressistas se sintam mais próximos das novidades e
-                    avanços da odontologia brasileira e mundial. <br/>
-
-                    Diversas atividades como palestras, hands on, cirurgias ao vivo e workshops fazem parte da grade de
-                    atividades que preparamos para enriquecer a formação de todos os nossos congressistas. Além dessas
-                    atividades, também contamos com um espaço para a apresentação de trabalhos de iniciação cientifica e
-                    pós graduação, que são avaliados por professores renomados da casa e os melhores são premiados.
-
+                    avanços da odontologia brasileira e mundial.
                 </p>
             </div>
         </div>
