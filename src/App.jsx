@@ -24,7 +24,7 @@ class App extends Component {
             <div className="App">
                 <ApolloProvider client={client}>
                     <NavBar/>
-                    {/*<Element name={"banner"}><Banner/></Element>*/}
+                    <Element name={"banner"}><Banner/></Element>
                     {/*<Element name={"activities"}><Activities/></Element>*/}
                     {/*<Element name={"expo"}><Expo/></Element>*/}
                     {/*<Element name={"cubo-access"}><CuboAccess/></Element>*/}
