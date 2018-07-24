@@ -30,7 +30,7 @@ class App extends Component {
                     <Element name={"cubo-access"}><CuboAccess/></Element>
                     <Element name={"sponsors"}><Sponsors/></Element>
                     <Element name={"about"}><About/></Element>
-                    {/*<Element name={"location"}><Location/></Element>*/}
+                    <Element name={"location"}><Location/></Element>
                     {/*<Element name={"contact"}><Contact/></Element>*/}
                     <Element name={"footer"}><Footer/></Element>
                 </ApolloProvider>
