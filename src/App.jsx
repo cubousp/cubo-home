@@ -26,7 +26,7 @@ class App extends Component {
                     <NavBar/>
                     <Element name={"banner"}><Banner/></Element>
                     {/*<Element name={"activities"}><Activities/></Element>*/}
-                    {/*<Element name={"expo"}><Expo/></Element>*/}
+                    <Element name={"expo"}><Expo/></Element>
                     {/*<Element name={"cubo-access"}><CuboAccess/></Element>*/}
                     {/*<Element name={"sponsors"}><Sponsors/></Element>*/}
                     {/*<Element name={"about"}><About/></Element>*/}
