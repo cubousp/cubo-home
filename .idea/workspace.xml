@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ffb4945-7d24-4985-9376-5fcd2d7f766d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Activities/Activities.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Activities/Activities.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Activities/Activities.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Activities/Activities.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Activities/hands-on.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Activities/hands-on.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Activities/palestra.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Activities/palestra.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Activities/stand.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Activities/stand.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Banner/Banner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Banner/Banner.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CuboAccess/CuboAccess.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CuboAccess/CuboAccess.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Expo/Expo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Expo/Expo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Expo.jsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Expo.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Expo/Expo.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="8" column="82" selection-start-line="8" selection-start-column="82" selection-end-line="8" selection-end-column="82" />
+            <state relative-caret-position="104">
+              <caret line="70" column="28" lean-forward="true" selection-start-line="42" selection-start-column="23" selection-end-line="70" selection-end-column="28" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -61,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Banner.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Banner.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Banner/Banner.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="58">
@@ -209,9 +200,9 @@
         <option value="$PROJECT_DIR$/src/components/Sponsors/Sponsors.jsx" />
         <option value="$PROJECT_DIR$/src/components/Activities/Activities.css" />
         <option value="$PROJECT_DIR$/src/components/Activities/Activities.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Banner/Banner.jsx" />
         <option value="$PROJECT_DIR$/src/components/CuboAccess/CuboAccess.jsx" />
         <option value="$PROJECT_DIR$/src/components/Expo/Expo.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Banner/Banner.jsx" />
       </list>
     </option>
   </component>
@@ -354,16 +345,15 @@
       <workItem from="1529424027594" duration="1535000" />
       <workItem from="1530366395226" duration="17513000" />
       <workItem from="1530479345836" duration="9722000" />
-      <workItem from="1532306952425" duration="15741000" />
+      <workItem from="1532306952425" duration="16304000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83062000" />
+    <option name="totallyTimeSpent" value="83625000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -371,8 +361,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34731182" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.24932542" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34731182" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.24932542" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -734,6 +724,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Banner/Banner.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/CuboAccess/CuboAccess.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -746,18 +746,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Expo/Expo.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="82" selection-start-line="8" selection-start-column="82" selection-end-line="8" selection-end-column="82" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Banner/Banner.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+        <state relative-caret-position="104">
+          <caret line="70" column="28" lean-forward="true" selection-start-line="42" selection-start-column="23" selection-end-line="70" selection-end-column="28" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>

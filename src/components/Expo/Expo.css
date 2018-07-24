@@ -21,7 +21,7 @@
 }
 
 .expo__content-judging {
-    width: 33%;
+    width: 66%;
     display: flex;
     flex-direction: column;
     align-items: start;
