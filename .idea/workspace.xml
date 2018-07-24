@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5ffb4945-7d24-4985-9376-5fcd2d7f766d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CuboAccess/CuboAccess.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CuboAccess/CuboAccess.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sponsors/Sponsors.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sponsors/Sponsors.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,19 +35,16 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="CuboAccess.jsx" pinned="false" current-in-tab="true">
+          <file leaf-file-name="CuboAccess.jsx" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/CuboAccess/CuboAccess.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="290">
-                  <caret line="87" column="49" selection-start-line="87" selection-start-column="49" selection-end-line="87" selection-end-column="49" />
-                  <caret line="94" column="49" selection-start-line="94" selection-start-column="49" selection-end-line="94" selection-end-column="49" />
-                  <caret line="102" column="49" selection-start-line="102" selection-start-column="49" selection-end-line="102" selection-end-column="49" />
-                  <caret line="110" column="49" selection-start-line="110" selection-start-column="49" selection-end-line="110" selection-end-column="49" />
-                  <caret line="117" column="49" selection-start-line="117" selection-start-column="49" selection-end-line="117" selection-end-column="49" />
-                  <caret line="125" column="49" selection-start-line="125" selection-start-column="49" selection-end-line="125" selection-end-column="49" />
+                <state relative-caret-position="232">
+                  <caret line="147" column="53" lean-forward="true" selection-start-line="147" selection-start-column="53" selection-end-line="147" selection-end-column="53" />
                   <folding>
                     <element signature="e#0#25#0" expanded="true" />
                     <element signature="e#237#3124#0" />
+                    <element signature="e#3486#4689#0" />
+                    <element signature="e#3658#3766#0" />
                   </folding>
                 </state>
               </provider>
@@ -56,10 +53,23 @@
           <file leaf-file-name="Expo.jsx" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/Expo/Expo.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="174">
+                <state relative-caret-position="261">
                   <caret line="93" column="73" lean-forward="true" selection-start-line="93" selection-start-column="24" selection-end-line="93" selection-end-column="73" />
                   <folding>
                     <element signature="e#0#25#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Sponsors.jsx" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/components/Sponsors/Sponsors.jsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="319">
+                  <caret line="96" column="42" lean-forward="true" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="42" />
+                  <folding>
+                    <element signature="e#0#25#0" expanded="true" />
+                    <element signature="e#544#4413#0" />
                   </folding>
                 </state>
               </provider>
@@ -72,8 +82,8 @@
           <file leaf-file-name="App.jsx" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/App.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="261">
-                  <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+                <state relative-caret-position="290">
+                  <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
                   </folding>
@@ -162,7 +172,6 @@
         <option value="$PROJECT_DIR$/src/components/About/About.jsx" />
         <option value="$PROJECT_DIR$/src/components/Contact/Contact.jsx" />
         <option value="$PROJECT_DIR$/src/components/Location/Location.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Sponsors/Sponsors.jsx" />
         <option value="$PROJECT_DIR$/src/components/Activities/Activities.css" />
         <option value="$PROJECT_DIR$/src/components/NavBar/tileData.jsx" />
         <option value="$PROJECT_DIR$/src/components/NavBar/NavBar.jsx" />
@@ -171,8 +180,9 @@
         <option value="$PROJECT_DIR$/src/components/Button/Button.jsx" />
         <option value="$PROJECT_DIR$/src/components/Expo/Expo.jsx" />
         <option value="$PROJECT_DIR$/src/components/Activities/Activities.jsx" />
-        <option value="$PROJECT_DIR$/src/App.jsx" />
         <option value="$PROJECT_DIR$/src/components/CuboAccess/CuboAccess.jsx" />
+        <option value="$PROJECT_DIR$/src/App.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Sponsors/Sponsors.jsx" />
       </list>
     </option>
   </component>
@@ -309,12 +319,12 @@
       <workItem from="1530366395226" duration="17513000" />
       <workItem from="1530479345836" duration="9722000" />
       <workItem from="1532306952425" duration="16304000" />
-      <workItem from="1532397075937" duration="8677000" />
+      <workItem from="1532397075937" duration="9481000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92425000" />
+    <option name="totallyTimeSpent" value="93229000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -575,16 +585,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Sponsors/Sponsors.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="15" column="59" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/react-animate-on-scroll/dist/scrollAnimation.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
@@ -654,12 +654,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Activities/Activities.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#735#2857#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+        <state relative-caret-position="290">
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CuboAccess/CuboAccess.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="147" column="53" lean-forward="true" selection-start-line="147" selection-start-column="53" selection-end-line="147" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#237#3124#0" />
+            <element signature="e#3486#4689#0" />
+            <element signature="e#3658#3766#0" />
           </folding>
         </state>
       </provider>
@@ -674,20 +698,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Activities/Activities.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <element signature="e#735#2857#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Expo/Expo.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
+        <state relative-caret-position="261">
           <caret line="93" column="73" lean-forward="true" selection-start-line="93" selection-start-column="24" selection-end-line="93" selection-end-column="73" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
@@ -695,18 +708,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CuboAccess/CuboAccess.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/Sponsors/Sponsors.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="87" column="49" selection-start-line="87" selection-start-column="49" selection-end-line="87" selection-end-column="49" />
-          <caret line="94" column="49" selection-start-line="94" selection-start-column="49" selection-end-line="94" selection-end-column="49" />
-          <caret line="102" column="49" selection-start-line="102" selection-start-column="49" selection-end-line="102" selection-end-column="49" />
-          <caret line="110" column="49" selection-start-line="110" selection-start-column="49" selection-end-line="110" selection-end-column="49" />
-          <caret line="117" column="49" selection-start-line="117" selection-start-column="49" selection-end-line="117" selection-end-column="49" />
-          <caret line="125" column="49" selection-start-line="125" selection-start-column="49" selection-end-line="125" selection-end-column="49" />
+        <state relative-caret-position="319">
+          <caret line="96" column="42" lean-forward="true" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="42" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
-            <element signature="e#237#3124#0" />
+            <element signature="e#544#4413#0" />
           </folding>
         </state>
       </provider>

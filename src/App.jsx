@@ -28,7 +28,7 @@ class App extends Component {
                     <Element name={"activities"}><Activities/></Element>
                     <Element name={"expo"}><Expo/></Element>
                     <Element name={"cubo-access"}><CuboAccess/></Element>
-                    {/*<Element name={"sponsors"}><Sponsors/></Element>*/}
+                    <Element name={"sponsors"}><Sponsors/></Element>
                     {/*<Element name={"about"}><About/></Element>*/}
                     {/*<Element name={"location"}><Location/></Element>*/}
                     {/*<Element name={"contact"}><Contact/></Element>*/}
