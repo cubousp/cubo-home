@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5ffb4945-7d24-4985-9376-5fcd2d7f766d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sponsors/Sponsors.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sponsors/Sponsors.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/About.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,29 +22,14 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Activities.jsx" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/Activities/Activities.jsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="117">
-                  <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-                  <folding>
-                    <element signature="e#0#25#0" expanded="true" />
-                    <element signature="e#735#2857#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="CuboAccess.jsx" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/CuboAccess/CuboAccess.jsx">
+          <file leaf-file-name="About.jsx" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/components/About/About.jsx">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="232">
-                  <caret line="147" column="53" lean-forward="true" selection-start-line="147" selection-start-column="53" selection-end-line="147" selection-end-column="53" />
+                  <caret line="37" column="77" selection-start-line="37" selection-start-column="77" selection-end-line="37" selection-end-column="77" />
                   <folding>
                     <element signature="e#0#25#0" expanded="true" />
-                    <element signature="e#237#3124#0" />
-                    <element signature="e#3486#4689#0" />
-                    <element signature="e#3658#3766#0" />
+                    <element signature="e#221#1581#0" />
                   </folding>
                 </state>
               </provider>
@@ -62,19 +47,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Sponsors.jsx" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/components/Sponsors/Sponsors.jsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="319">
-                  <caret line="96" column="42" lean-forward="true" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="42" />
-                  <folding>
-                    <element signature="e#0#25#0" expanded="true" />
-                    <element signature="e#544#4413#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
@@ -82,11 +54,8 @@
           <file leaf-file-name="App.jsx" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/App.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="290">
-                  <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-                  <folding>
-                    <element signature="e#0#41#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="174">
+                  <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -94,7 +63,7 @@
           <file leaf-file-name="NavBar.jsx" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/NavBar/NavBar.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="435">
+                <state relative-caret-position="87">
                   <caret line="60" column="31" lean-forward="true" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="31" />
                   <folding>
                     <element signature="e#0#40#0" expanded="true" />
@@ -169,7 +138,6 @@
         <option value="$PROJECT_DIR$/src/components/Sponsors/Sponsors.css" />
         <option value="$PROJECT_DIR$/src/components/Expo/Expo.css" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/components/About/About.jsx" />
         <option value="$PROJECT_DIR$/src/components/Contact/Contact.jsx" />
         <option value="$PROJECT_DIR$/src/components/Location/Location.jsx" />
         <option value="$PROJECT_DIR$/src/components/Activities/Activities.css" />
@@ -181,8 +149,9 @@
         <option value="$PROJECT_DIR$/src/components/Expo/Expo.jsx" />
         <option value="$PROJECT_DIR$/src/components/Activities/Activities.jsx" />
         <option value="$PROJECT_DIR$/src/components/CuboAccess/CuboAccess.jsx" />
-        <option value="$PROJECT_DIR$/src/App.jsx" />
         <option value="$PROJECT_DIR$/src/components/Sponsors/Sponsors.jsx" />
+        <option value="$PROJECT_DIR$/src/App.jsx" />
+        <option value="$PROJECT_DIR$/src/components/About/About.jsx" />
       </list>
     </option>
   </component>
@@ -319,12 +288,12 @@
       <workItem from="1530366395226" duration="17513000" />
       <workItem from="1530479345836" duration="9722000" />
       <workItem from="1532306952425" duration="16304000" />
-      <workItem from="1532397075937" duration="9481000" />
+      <workItem from="1532397075937" duration="10170000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93229000" />
+    <option name="totallyTimeSpent" value="93918000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -558,13 +527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/About/About.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Contact/Contact.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
@@ -654,23 +616,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Activities/Activities.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/Sponsors/Sponsors.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+        <state relative-caret-position="116">
+          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <element signature="e#735#2857#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#544#4755#0" />
           </folding>
         </state>
       </provider>
@@ -688,9 +639,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Activities/Activities.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#735#2857#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/NavBar/NavBar.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
+        <state relative-caret-position="87">
           <caret line="60" column="31" lean-forward="true" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="31" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
@@ -708,13 +677,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Sponsors/Sponsors.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/About/About.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="96" column="42" lean-forward="true" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="42" />
+        <state relative-caret-position="232">
+          <caret line="37" column="77" selection-start-line="37" selection-start-column="77" selection-end-line="37" selection-end-column="77" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
-            <element signature="e#544#4413#0" />
+            <element signature="e#221#1581#0" />
           </folding>
         </state>
       </provider>
