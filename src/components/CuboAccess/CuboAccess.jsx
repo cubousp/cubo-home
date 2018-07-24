@@ -4,7 +4,7 @@ import Button from '../Button/Button'
 import ScrollAnimation from 'react-animate-on-scroll'
 
 const CuboAccess = () => (
-    <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+    <ScrollAnimation animateIn="fadeIn" animateOnce={true} delay={0}>
         <div className="cubo-access">
             <div className="cubo-access__header">
                 <h1>Cubo Access</h1>

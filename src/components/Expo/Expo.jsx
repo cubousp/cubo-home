@@ -6,7 +6,7 @@ import fotopolimerizador from './fotopolimerizador.png'
 import ScrollAnimation from 'react-animate-on-scroll'
 
 const Expo = () => (
-    <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+    <ScrollAnimation animateIn="fadeIn" animateOnce={true} delay={0}>
         <div className="expo">
             <div className="expo__header">
                 <h1>

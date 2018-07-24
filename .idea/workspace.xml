@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ffb4945-7d24-4985-9376-5fcd2d7f766d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/About.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Activities/Activities.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Activities/Activities.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Activities/Activities.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Activities/Activities.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Activities/hands-on.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Activities/hands-on.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Activities/palestra.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Activities/palestra.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Activities/stand.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Activities/stand.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Banner/Banner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Banner/Banner.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contact/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/Contact.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CuboAccess/CuboAccess.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CuboAccess/CuboAccess.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Expo/Expo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Expo/Expo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Location/Location.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Location/Location.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sponsors/Sponsors.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sponsors/Sponsors.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sponsors/Sponsors.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sponsors/Sponsors.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -36,8 +31,8 @@
       <file leaf-file-name="Activities.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Activities/Activities.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1868">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="-696">
+              <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -45,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Activities.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Activities.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Activities/Activities.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="113" column="5" lean-forward="true" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
+            <state relative-caret-position="-361">
+              <caret line="90" selection-start-line="90" selection-end-line="90" />
             </state>
           </provider>
         </entry>
@@ -57,8 +52,8 @@
       <file leaf-file-name="Expo.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Expo/Expo.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-638">
-              <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+            <state relative-caret-position="232">
+              <caret line="8" column="82" selection-start-line="8" selection-start-column="82" selection-end-line="8" selection-end-column="82" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -66,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Banner.jsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Banner.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Banner/Banner.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="5" column="53" lean-forward="true" selection-start-line="5" selection-end-line="5" selection-end-column="53" />
+            <state relative-caret-position="58">
+              <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -110,8 +105,8 @@
       <file leaf-file-name="CuboAccess.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/CuboAccess/CuboAccess.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="3" column="53" lean-forward="true" selection-start-line="3" selection-end-line="3" selection-end-column="53" />
+            <state relative-caret-position="174">
+              <caret line="6" column="68" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -208,15 +203,15 @@
         <option value="$PROJECT_DIR$/src/components/Expo/Expo.css" />
         <option value="$PROJECT_DIR$/src/App.jsx" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/components/Banner/Banner.jsx" />
         <option value="$PROJECT_DIR$/src/components/About/About.jsx" />
         <option value="$PROJECT_DIR$/src/components/Contact/Contact.jsx" />
-        <option value="$PROJECT_DIR$/src/components/CuboAccess/CuboAccess.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Expo/Expo.jsx" />
         <option value="$PROJECT_DIR$/src/components/Location/Location.jsx" />
         <option value="$PROJECT_DIR$/src/components/Sponsors/Sponsors.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Activities/Activities.jsx" />
         <option value="$PROJECT_DIR$/src/components/Activities/Activities.css" />
+        <option value="$PROJECT_DIR$/src/components/Activities/Activities.jsx" />
+        <option value="$PROJECT_DIR$/src/components/CuboAccess/CuboAccess.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Expo/Expo.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Banner/Banner.jsx" />
       </list>
     </option>
   </component>
@@ -238,9 +233,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="67" />
-    <option name="y" value="27" />
-    <option name="width" value="917" />
-    <option name="height" value="789" />
+    <option name="y" value="25" />
+    <option name="width" value="927" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -276,21 +271,7 @@
               <item name="cubo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Activities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cubo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cubo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="Banner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cubo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cubo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Contact" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cubo" type="b2602c69:ProjectViewProjectNode" />
@@ -330,7 +311,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.lang.jsgraphql.ide.injection.JSGraphQLLanguageInjectionUtil.gql" value="apollo" />
     <property name="jsgraphql-schema-editor-notification" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cubo-admin" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -373,15 +354,16 @@
       <workItem from="1529424027594" duration="1535000" />
       <workItem from="1530366395226" duration="17513000" />
       <workItem from="1530479345836" duration="9722000" />
-      <workItem from="1532306952425" duration="10328000" />
+      <workItem from="1532306952425" duration="15741000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77649000" />
+    <option name="totallyTimeSpent" value="83062000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -389,8 +371,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34731182" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.24932542" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34731182" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.24932542" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -705,30 +687,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Expo/Expo.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-638">
-          <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Location/Location.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
           <caret line="8" column="59" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CuboAccess/CuboAccess.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="53" lean-forward="true" selection-start-line="3" selection-end-line="3" selection-end-column="53" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -752,33 +714,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Banner/Banner.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="53" lean-forward="true" selection-start-line="5" selection-end-line="5" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Activities/cirurgia.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Activities/Activities.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-361">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Activities/Activities.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1868">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="-696">
+          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Activities/Activities.css">
+    <entry file="file://$PROJECT_DIR$/src/components/CuboAccess/CuboAccess.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="113" column="5" lean-forward="true" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
+        <state relative-caret-position="174">
+          <caret line="6" column="68" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Expo/Expo.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="82" selection-start-line="8" selection-start-column="82" selection-end-line="8" selection-end-column="82" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Banner/Banner.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -66,9 +66,9 @@
 }
 
 .activities__section__title {
-    text-transform: uppercase;
     color: #fff;
-    display: flex;
+    display: flex !important;
+    flex-direction: column;
     flex-grow: 1;
     width: 300px;
     height: 450px;
@@ -76,19 +76,18 @@
     position: absolute;
     top: 33%;
     left: 16%;
-    animation: fadein 2s;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
-    -o-animation: fadein 2s; /* Opera */
 }
 
 .activities__section__title h1 {
+    text-transform: uppercase;
     font-weight: 600;
     font-size: 48px;
-    animation: fadein 2s;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
-    -o-animation: fadein 2s; /* Opera */
+}
+
+.activities__section__title h6 {
+    margin-top: 32px;
+    font-style: italic;
+    font-size: 24px;
 }
 
 .slick-prev {

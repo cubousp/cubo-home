@@ -6,7 +6,7 @@ import Button from '../Button/Button'
 import ScrollAnimation from 'react-animate-on-scroll'
 
 const Banner = () => (
-    <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+    <ScrollAnimation animateIn="fadeIn" animateOnce={true} delay={0}>
         <div className="banner">
             <div className="banner__content">
                 <div className="banner__content__event-edition">
