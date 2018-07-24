@@ -24,15 +24,15 @@ class App extends Component {
             <div className="App">
                 <ApolloProvider client={client}>
                     <NavBar/>
-                    <Element name={"banner"}><Banner/></Element>
-                    <Element name={"activities"}><Activities/></Element>
-                    <Element name={"expo"}><Expo/></Element>
-                    <Element name={"cubo-access"}><CuboAccess/></Element>
-                    <Element name={"sponsors"}><Sponsors/></Element>
-                    <Element name={"about"}><About/></Element>
-                    <Element name={"location"}><Location/></Element>
-                    <Element name={"contact"}><Contact/></Element>
-                    <Element name={"footer"}><Footer/></Element>
+                    {/*<Element name={"banner"}><Banner/></Element>*/}
+                    {/*<Element name={"activities"}><Activities/></Element>*/}
+                    {/*<Element name={"expo"}><Expo/></Element>*/}
+                    {/*<Element name={"cubo-access"}><CuboAccess/></Element>*/}
+                    {/*<Element name={"sponsors"}><Sponsors/></Element>*/}
+                    {/*<Element name={"about"}><About/></Element>*/}
+                    {/*<Element name={"location"}><Location/></Element>*/}
+                    {/*<Element name={"contact"}><Contact/></Element>*/}
+                    {/*<Element name={"footer"}><Footer/></Element>*/}
                 </ApolloProvider>
             </div>
     );
