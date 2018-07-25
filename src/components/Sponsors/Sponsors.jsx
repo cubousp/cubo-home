@@ -6,6 +6,8 @@ import morelli from './morelli.png'
 import odontoPrev from './odonto-prev.png'
 import quinelato from './quinelato.png'
 import septodont from './septodont.png'
+import colgate from './colgate.png'
+import curaprox from './curaprox.png'
 import sis from './sis.png'
 import tdv from './tdv.png'
 import valda from './valda.png'
@@ -27,44 +29,64 @@ const Sponsors = () => (
                                 <img alt="sponsor" style={{ maxWidth: 160, maxHeight: 120, height: 'auto' }} src={dentsply} className="grow"/>
                             </a>
                         </div>
+                        <div className="sponsors__grid__card"/>
                         <div className="sponsors__grid__card">
                             <a href="http://www.fgm.ind.br/site/" target="_blank" rel="noopener noreferrer">
                                 <img alt="sponsor" style={{ maxWidth: 160, maxHeight: 120, height: 'auto' }} src={fgm} className="grow"/>
                             </a>
                         </div>
+                        <div className="sponsors__grid__card"/>
                         <div className="sponsors__grid__card">
                             <a href="https://www.morelli.com.br/" target="_blank" rel="noopener noreferrer">
                                 <img alt="sponsor" style={{ maxWidth: 160, maxHeight: 120, height: 'auto' }} src={morelli} className="grow"/>
                             </a>
                         </div>
+                        <div className="sponsors__grid__card"/>
                         <div className="sponsors__grid__card">
                             <a href="http://www.odontoprev.com.br/" target="_blank" rel="noopener noreferrer">
                                 <img alt="sponsor" style={{ maxWidth: 160, maxHeight: 120, height: 'auto' }} src={odontoPrev} className="grow"/>
                             </a>
                         </div>
+                        <div className="sponsors__grid__card"/>
                         <div className="sponsors__grid__card">
                             <a href="https://www.quinelato.com.br" target="_blank" rel="noopener noreferrer">
                                 <img alt="sponsor" style={{ maxWidth: 160, maxHeight: 120, height: 'auto' }} src={quinelato} className="grow"/>
                             </a>
                         </div>
+                        <div className="sponsors__grid__card"/>
                         <div className="sponsors__grid__card">
                             <a href="http://www.septodont.com.br/" target="_blank" rel="noopener noreferrer">
                                 <img alt="sponsor" style={{ maxWidth: 160, maxHeight: 120, height: 'auto' }} src={septodont} className="grow"/>
                             </a>
                         </div>
+                        <div className="sponsors__grid__card"/>
                         <div className="sponsors__grid__card">
                             <a href="http://www.sisconsultoria.net/" target="_blank" rel="noopener noreferrer">
                                 <img alt="sponsor" style={{ maxWidth: 160, maxHeight: 120, height: 'auto' }} src={sis} className="grow"/>
                             </a>
                         </div>
+                        <div className="sponsors__grid__card"/>
                         <div className="sponsors__grid__card">
                             <a href="http://www.tdv.com.br/" target="_blank" rel="noopener noreferrer">
                                 <img alt="sponsor" style={{ maxWidth: 160, maxHeight: 120, height: 'auto' }} src={tdv} className="grow"/>
                             </a>
                         </div>
+                        <div className="sponsors__grid__card"/>
                         <div className="sponsors__grid__card">
                             <a target="_blank" rel="noopener noreferrer">
                                 <img alt="sponsor" style={{ maxWidth: 160, maxHeight: 120, height: 'auto' }} src={valda} className="grow"/>
+                            </a>
+                        </div>
+                        <div className="sponsors__grid__card"/>
+                        <div className="sponsors__grid__card">
+                            <a href="https://www.colgate.com.br/" target="_blank" rel="noopener noreferrer">
+                                <img alt="sponsor" style={{ maxWidth: 160, maxHeight: 120, height: 'auto' }} src={colgate} className="grow"/>
+                            </a>
+                        </div>
+                        <div className="sponsors__grid__card"/>
+                        <div className="sponsors__grid__card">
+                            <a href="https://www.curaprox.com/" target="_blank" rel="noopener noreferrer">
+                                <img alt="sponsor" style={{ maxWidth: 160, maxHeight: 120, height: 'auto' }} src={curaprox} className="grow"/>
                             </a>
                         </div>
                     </div>
@@ -142,6 +164,16 @@ const Sponsors = () => (
                         <div className="sponsors__grid__card">
                             <a target="_blank" rel="noopener noreferrer">
                                 <img alt="sponsor" style={{ maxWidth: 160, maxHeight: 120, height: 'auto' }} src={valda} className="grow"/>
+                            </a>
+                        </div>
+                        <div className="sponsors__grid__card">
+                            <a href="https://www.colgate.com.br/" target="_blank" rel="noopener noreferrer">
+                                <img alt="sponsor" style={{ maxWidth: 160, maxHeight: 120, height: 'auto' }} src={colgate} className="grow"/>
+                            </a>
+                        </div>
+                        <div className="sponsors__grid__card">
+                            <a href="https://www.curaprox.com/" target="_blank" rel="noopener noreferrer">
+                                <img alt="sponsor" style={{ maxWidth: 160, maxHeight: 120, height: 'auto' }} src={curaprox} className="grow"/>
                             </a>
                         </div>
                     </div>
