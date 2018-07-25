@@ -82,7 +82,7 @@ const Location = () => (
                         <h1 style={{ fontSize: 24, lineHeight: '32px' }}>Como chegar</h1>
                     </div>
                     <div className="location__content" style={{
-                        marginTop: 32
+                        marginTop: 32, justifyContent: 'center'
                     }}>
                         <div className="location__content-info" style={{
                             margin: 0,
@@ -112,8 +112,8 @@ const Location = () => (
                                     Butantã, São Paulo - SP
                                 </span>
                             </div>
-                            <div style={{ width: 'fit-content' }}>
-                                <div className="location__content-info-moovit">
+                            <div style={{ width: '100%' }}>
+                                <div className="location__content-info-moovit" style={{ justifyContent: 'center' }}>
                                     <div>
                                         <h4 style={{
                                             fontSize: 14,

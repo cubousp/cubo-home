@@ -99,7 +99,7 @@ const Expo = () => (
                     <div className="expo__content">
                         <div className="expo__content-judging" style={{ width: '100%' }}>
                             <span style={{ fontSize: 18 }}>Para alunos da graduação e pós graduação</span>
-                            <div style={{ alignSelf: 'flex-end' }}>
+                            <div style={{ alignSelf: 'center' }}>
                                 <ul style={{ padding: 8, fontSize: 16, marginTop: 32 }}>
                                     Com banca avaliadora formada por professores da USP nas categorias:
                                 </ul>
