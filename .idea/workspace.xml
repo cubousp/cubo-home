@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ffb4945-7d24-4985-9376-5fcd2d7f766d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Expo/Expo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Expo/Expo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Location/Location.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Location/Location.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,20 +44,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Expo.jsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Expo.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Expo/Expo.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="583">
-              <caret line="47" column="45" lean-forward="true" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
+            <state relative-caret-position="558">
+              <caret line="136" column="41" selection-start-line="136" selection-start-column="41" selection-end-line="136" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Location.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Location.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Location/Location.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="84" column="63" selection-start-line="84" selection-start-column="63" selection-end-line="84" selection-end-column="63" />
+            <state relative-caret-position="526">
+              <caret line="110" column="35" lean-forward="true" selection-start-line="110" selection-start-column="35" selection-end-line="110" selection-end-column="35" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -77,11 +77,8 @@
       <file leaf-file-name="Sponsors.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Sponsors/Sponsors.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="93">
+              <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -122,6 +119,9 @@
       <find>FADE</find>
       <find>img</find>
       <find>inscre</find>
+      <find>parceiro do cu</find>
+      <find>confir</find>
+      <find>o regu</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -171,8 +171,8 @@
         <option value="$PROJECT_DIR$/src/components/Contact/Contact.jsx" />
         <option value="$PROJECT_DIR$/src/components/Sponsors/Sponsors.css" />
         <option value="$PROJECT_DIR$/src/components/Sponsors/Sponsors.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Expo/Expo.jsx" />
         <option value="$PROJECT_DIR$/src/components/Location/Location.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Expo/Expo.jsx" />
       </list>
     </option>
   </component>
@@ -283,12 +283,12 @@
       <workItem from="1530479345836" duration="9722000" />
       <workItem from="1532306952425" duration="16304000" />
       <workItem from="1532397075937" duration="12155000" />
-      <workItem from="1532556742435" duration="1873000" />
+      <workItem from="1532556742435" duration="2389000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97776000" />
+    <option name="totallyTimeSpent" value="98292000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-226" y="-1080" width="1920" height="1080" extended-state="0" />
@@ -298,6 +298,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -312,7 +313,6 @@
       <window_info anchor="bottom" id="GraphQL" order="8" weight="0.32903227" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -610,30 +610,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Sponsors/Sponsors.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/Location/Location.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        <state relative-caret-position="526">
+          <caret line="110" column="35" lean-forward="true" selection-start-line="110" selection-start-column="35" selection-end-line="110" selection-end-column="35" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Sponsors/Sponsors.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Expo/Expo.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="47" column="45" lean-forward="true" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Location/Location.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="84" column="63" selection-start-line="84" selection-start-column="63" selection-end-line="84" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="558">
+          <caret line="136" column="41" selection-start-line="136" selection-start-column="41" selection-end-line="136" selection-end-column="41" />
         </state>
       </provider>
     </entry>

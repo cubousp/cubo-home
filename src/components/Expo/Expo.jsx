@@ -72,17 +72,33 @@ const Expo = () => (
                                 {/*</li>*/}
                             {/*</ul>*/}
                         </div>
-                        <a
-                            href="https://goo.gl/forms/snfrbfQcTO3pGJOM2"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            style={{ textDecoration: 'none' }}
-                            className="expo__content-button">
-                                <Button>
-                                    Inscreva seu<br/>
-                                    trabalho
-                                </Button>
-                        </a>
+                        <div style={{ display: 'flex', flexDirection: 'column' }}>
+                            <a
+                                href="https://goo.gl/forms/snfrbfQcTO3pGJOM2"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style={{ textDecoration: 'none' }}
+                                className="expo__content-button">
+                                    <Button>
+                                        Inscreva seu<br/>
+                                        trabalho
+                                    </Button>
+                            </a>
+                            <div style={{
+                                marginTop: 16,
+                                textAlign: 'end',
+                                fontStyle: 'italic',
+                                width: '100%',
+                                color: '#16557E',
+                                fontSize: 14
+                            }}>
+                                <p>
+                                    * Confira
+                                    <a href={'https://drive.google.com/file/d/1F8KW-rR4r-KPuckPRiZZk64Y4U5UYZbi/view'} target={'_blank'}> aqui </a>
+                                    o regulamento
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </ScrollAnimation>
@@ -132,6 +148,20 @@ const Expo = () => (
                             trabalho
                         </Button>
                     </a>
+                    <div style={{
+                        marginTop: 8,
+                        textAlign: 'end',
+                        fontStyle: 'italic',
+                        width: '100%',
+                        color: '#16557E',
+                        fontSize: 14
+                    }}>
+                        <p>
+                            * Confira
+                            <a href={'https://drive.google.com/file/d/1F8KW-rR4r-KPuckPRiZZk64Y4U5UYZbi/view'} target={'_blank'}> aqui </a>
+                            o regulamento
+                        </p>
+                    </div>
                 </div>
             </ScrollAnimation>
         </Hidden>
