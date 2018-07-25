@@ -55,14 +55,14 @@ const Sponsors = () => (
                         </div>
                         <div className="sponsors__grid__card"/>
                         <div className="sponsors__grid__card">
-                            <a href="http://www.septodont.com.br/" target="_blank" rel="noopener noreferrer">
-                                <img alt="sponsor" style={{ maxWidth: 160, maxHeight: 120, height: 'auto' }} src={septodont} className="grow"/>
+                            <a href="https://www.colgate.com.br/" target="_blank" rel="noopener noreferrer">
+                                <img alt="sponsor" style={{ maxWidth: 160, maxHeight: 120, height: 'auto' }} src={colgate} className="grow"/>
                             </a>
                         </div>
                         <div className="sponsors__grid__card"/>
                         <div className="sponsors__grid__card">
-                            <a href="http://www.sisconsultoria.net/" target="_blank" rel="noopener noreferrer">
-                                <img alt="sponsor" style={{ maxWidth: 160, maxHeight: 120, height: 'auto' }} src={sis} className="grow"/>
+                            <a href="https://www.curaprox.com/" target="_blank" rel="noopener noreferrer">
+                                <img alt="sponsor" style={{ maxWidth: 160, maxHeight: 120, height: 'auto' }} src={curaprox} className="grow"/>
                             </a>
                         </div>
                         <div className="sponsors__grid__card"/>
@@ -79,14 +79,14 @@ const Sponsors = () => (
                         </div>
                         <div className="sponsors__grid__card"/>
                         <div className="sponsors__grid__card">
-                            <a href="https://www.colgate.com.br/" target="_blank" rel="noopener noreferrer">
-                                <img alt="sponsor" style={{ maxWidth: 160, maxHeight: 120, height: 'auto' }} src={colgate} className="grow"/>
+                            <a href="http://www.septodont.com.br/" target="_blank" rel="noopener noreferrer">
+                                <img alt="sponsor" style={{ maxWidth: 160, maxHeight: 120, height: 'auto' }} src={septodont} className="grow"/>
                             </a>
                         </div>
                         <div className="sponsors__grid__card"/>
                         <div className="sponsors__grid__card">
-                            <a href="https://www.curaprox.com/" target="_blank" rel="noopener noreferrer">
-                                <img alt="sponsor" style={{ maxWidth: 160, maxHeight: 120, height: 'auto' }} src={curaprox} className="grow"/>
+                            <a href="http://www.sisconsultoria.net/" target="_blank" rel="noopener noreferrer">
+                                <img alt="sponsor" style={{ maxWidth: 160, maxHeight: 120, height: 'auto' }} src={sis} className="grow"/>
                             </a>
                         </div>
                     </div>
@@ -147,13 +147,13 @@ const Sponsors = () => (
                             </a>
                         </div>
                         <div className="sponsors__grid__card">
-                            <a href="http://www.septodont.com.br/" target="_blank" rel="noopener noreferrer">
-                                <img alt="sponsor" style={{ maxWidth: 160, maxHeight: 120, height: 'auto' }} src={septodont} className="grow"/>
+                            <a href="https://www.colgate.com.br/" target="_blank" rel="noopener noreferrer">
+                                <img alt="sponsor" style={{ maxWidth: 160, maxHeight: 120, height: 'auto' }} src={colgate} className="grow"/>
                             </a>
                         </div>
                         <div className="sponsors__grid__card">
-                            <a href="http://www.sisconsultoria.net/" target="_blank" rel="noopener noreferrer">
-                                <img alt="sponsor" style={{ maxWidth: 160, maxHeight: 120, height: 'auto' }} src={sis} className="grow"/>
+                            <a href="https://www.curaprox.com/" target="_blank" rel="noopener noreferrer">
+                                <img alt="sponsor" style={{ maxWidth: 160, maxHeight: 120, height: 'auto' }} src={curaprox} className="grow"/>
                             </a>
                         </div>
                         <div className="sponsors__grid__card">
@@ -167,13 +167,13 @@ const Sponsors = () => (
                             </a>
                         </div>
                         <div className="sponsors__grid__card">
-                            <a href="https://www.colgate.com.br/" target="_blank" rel="noopener noreferrer">
-                                <img alt="sponsor" style={{ maxWidth: 160, maxHeight: 120, height: 'auto' }} src={colgate} className="grow"/>
+                            <a href="http://www.septodont.com.br/" target="_blank" rel="noopener noreferrer">
+                                <img alt="sponsor" style={{ maxWidth: 160, maxHeight: 120, height: 'auto' }} src={septodont} className="grow"/>
                             </a>
                         </div>
                         <div className="sponsors__grid__card">
-                            <a href="https://www.curaprox.com/" target="_blank" rel="noopener noreferrer">
-                                <img alt="sponsor" style={{ maxWidth: 160, maxHeight: 120, height: 'auto' }} src={curaprox} className="grow"/>
+                            <a href="http://www.sisconsultoria.net/" target="_blank" rel="noopener noreferrer">
+                                <img alt="sponsor" style={{ maxWidth: 160, maxHeight: 120, height: 'auto' }} src={sis} className="grow"/>
                             </a>
                         </div>
                     </div>
