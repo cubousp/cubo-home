@@ -72,17 +72,33 @@ const Expo = () => (
                                 {/*</li>*/}
                             {/*</ul>*/}
                         </div>
-                        <a
-                            href="https://goo.gl/forms/snfrbfQcTO3pGJOM2"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            style={{ textDecoration: 'none' }}
-                            className="expo__content-button">
-                                <Button>
-                                    Inscreva seu<br/>
-                                    trabalho
-                                </Button>
-                        </a>
+                        <div style={{ display: 'flex', flexDirection: 'column' }}>
+                            <a
+                                href="https://goo.gl/forms/snfrbfQcTO3pGJOM2"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style={{ textDecoration: 'none' }}
+                                className="expo__content-button">
+                                    <Button>
+                                        Inscreva seu<br/>
+                                        trabalho
+                                    </Button>
+                            </a>
+                            <div style={{
+                                marginTop: 16,
+                                textAlign: 'end',
+                                fontStyle: 'italic',
+                                width: '100%',
+                                color: '#16557E',
+                                fontSize: 14
+                            }}>
+                                <p>
+                                    * Confira
+                                    <a href={'https://drive.google.com/file/d/1F8KW-rR4r-KPuckPRiZZk64Y4U5UYZbi/view'} target={'_blank'}> aqui </a>
+                                    o regulamento
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </ScrollAnimation>
@@ -99,7 +115,7 @@ const Expo = () => (
                     <div className="expo__content">
                         <div className="expo__content-judging" style={{ width: '100%' }}>
                             <span style={{ fontSize: 18 }}>Para alunos da graduação e pós graduação</span>
-                            <div style={{ alignSelf: 'flex-end' }}>
+                            <div style={{ alignSelf: 'center' }}>
                                 <ul style={{ padding: 8, fontSize: 16, marginTop: 32 }}>
                                     Com banca avaliadora formada por professores da USP nas categorias:
                                 </ul>
@@ -132,6 +148,20 @@ const Expo = () => (
                             trabalho
                         </Button>
                     </a>
+                    <div style={{
+                        marginTop: 8,
+                        textAlign: 'end',
+                        fontStyle: 'italic',
+                        width: '100%',
+                        color: '#16557E',
+                        fontSize: 14
+                    }}>
+                        <p>
+                            * Confira
+                            <a href={'https://drive.google.com/file/d/1F8KW-rR4r-KPuckPRiZZk64Y4U5UYZbi/view'} target={'_blank'}> aqui </a>
+                            o regulamento
+                        </p>
+                    </div>
                 </div>
             </ScrollAnimation>
         </Hidden>
